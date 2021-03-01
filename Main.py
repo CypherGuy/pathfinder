@@ -18,20 +18,6 @@ ORANGE = (255, 165 ,0)
 GREY = (128, 128, 128)
 TURQUOISE = (64, 224, 208)
 
-for event in pygame.event.get():
-    if event.type == pygame.KEYDOWN:
-        if event.key == pygame.K_i:
-            RED = (0, 255, 255)
-            GREEN = (255, 0, 255)
-            BLUE = (255, 0, 255)
-            YELLOW = (0, 0, 255)
-            WHITE = (0, 0, 0)
-            BLACK = (255, 255, 255)
-            PURPLE = (0, 128, 0)
-            ORANGE = (0, 90 ,255)
-            GREY = (128, 128, 128)
-            TURQUOISE = (191, 31, 47)
-
 class Node:
     def __init__(self, row, col, width, total_rows):
         self.row = row
